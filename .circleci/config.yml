@@ -47,6 +47,3 @@ jobs:
             yarn test
             ./cc-test-reporter after-build --coverage-input-type lcov --exit-code $?
 
-      - run: yarn test
-
-
