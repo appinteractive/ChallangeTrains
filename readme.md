@@ -1,4 +1,8 @@
-# Orbit Challange - Trains [![Maintainability](https://api.codeclimate.com/v1/badges/d639daa697272f7a3bdb/maintainability)](https://codeclimate.com/github/appinteractive/orbit-challage-trains/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/d639daa697272f7a3bdb/test_coverage)](https://codeclimate.com/github/appinteractive/orbit-challage-trains/test_coverage) [![CircleCI](https://circleci.com/gh/appinteractive/orbit-challage-trains.svg?style=svg)](https://circleci.com/gh/appinteractive/orbit-challage-trains)
+# Challange - Trains 
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/4f2a7a710a4c27a1e904/maintainability)](https://codeclimate.com/github/appinteractive/ChallangeTrains/maintainability) 
+[![Test Coverage](https://api.codeclimate.com/v1/badges/4f2a7a710a4c27a1e904/test_coverage)](https://codeclimate.com/github/appinteractive/ChallangeTrains/test_coverage) 
+[![CircleCI](https://circleci.com/gh/appinteractive/ChallageTrains.svg?style=svg)](https://circleci.com/gh/appinteractive/ChallageTrains)
 
 ## Description
 The local commuter railroad services a number of towns in Kiwiland. Because of monetary concerns, all of the tracks are 'one-way.' That is, a route from Kaitaia to Invercargill does not imply the existence of a route from Invercargill to Kaitaia. In fact, even if both of these routes do happen to exist, they are distinct and are not necessarily the same distance!
