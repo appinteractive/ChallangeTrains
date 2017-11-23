@@ -1,10 +1,21 @@
-module.exports = class Graphs {
+const graphs = class Graphs {
+  /**
+   * Initialize the Graph
+   *
+   * @param graphsAndNodes Object
+   */
   constructor (graphsAndNodes) {
-    if (!graphsAndNodes) {
-      throw new Error('missing argument graphsAndNodes on the Graphs constructor')
+    if (!graphsAndNodes || typeof graphsAndNodes !== 'object') {
+      throw new TypeError(`Expected an object, got ${typeof graphsAndNodes}`);
     }
     this.graphs = graphsAndNodes
   }
+  /**
+   * Calculates the distances between a list of nodes
+   *
+   * @param nodes Arguments as strigs
+   * @returns {number|Error}
+   */
   calculateDistance (...nodes) {
     let distance = 0
     let index = 0
@@ -18,3 +29,4 @@ module.exports = class Graphs {
     return distance
   }
 }
+module.exports = graphs
