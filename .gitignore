@@ -4,9 +4,9 @@ node_modules
 # logs
 npm-debug.log
 
-# Ignore ide settings
+# ignore ide settings
 .idea/
 .vscode/
 
-package-lock.json
-yarn.lock
+# Ignore coverage reports
+coverage/
