@@ -2,7 +2,7 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/4f2a7a710a4c27a1e904/maintainability)](https://codeclimate.com/github/appinteractive/ChallangeTrains/maintainability) 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/4f2a7a710a4c27a1e904/test_coverage)](https://codeclimate.com/github/appinteractive/ChallangeTrains/test_coverage) 
-[![CircleCI](https://circleci.com/gh/appinteractive/ChallageTrains.svg?style=svg)](https://circleci.com/gh/appinteractive/ChallageTrains)
+[![CircleCI](https://circleci.com/gh/appinteractive/ChallangeTrains.svg?style=svg)](https://circleci.com/gh/appinteractive/ChallangeTrains)
 
 ## Description
 The local commuter railroad services a number of towns in Kiwiland. Because of monetary concerns, all of the tracks are 'one-way.' That is, a route from Kaitaia to Invercargill does not imply the existence of a route from Invercargill to Kaitaia. In fact, even if both of these routes do happen to exist, they are distinct and are not necessarily the same distance!
