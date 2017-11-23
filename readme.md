@@ -43,7 +43,7 @@ $ npm install challange-trains
 ## Usage
 
 ```js
-const Graphs = require('./src/graphs')
+const Graphs = require('challange-trains')
 
 // initialize
 const Trains = new Graphs({
