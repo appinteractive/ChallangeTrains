@@ -22,8 +22,14 @@ const Trains = new Graphs({
     B: 3
   }
 })
+Trains.calculateDistance()
 const assert = require('assert')
 
+describe('Trains - Initialize Graph', () => {
+  it('Empty constructor throws error', () => {
+    assert.throws(() => new Graphs(), TypeError, 'missing argument graphsAndNodes on the Graphs constructor')
+  })
+})
 describe('Trains - Calculate Route Distance', () => {
 
   // Route A-B-C
